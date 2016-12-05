@@ -1,0 +1,88 @@
+
+ul {
+    
+    margin:0px;
+    padding:0px;
+}
+
+ul li a { 
+    text-decoration: none;
+          color:white;
+          display: block;
+}
+ul li { 
+    float:left;
+    width:150px;
+    height:40px;
+    background-color: black;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    opacity: .8;
+    border: 2px solid red;
+}
+ul li a:hover {
+    background-color: orange;
+}
+ul li ul li {
+    
+    display:none;
+}
+ul li:hover ul li  {
+    display:block;
+    
+}
+body{
+    background-image:url("image.JPG");
+
+}
+.menu{
+    width:325px;
+    margin:auto;
+    padding: 130px;
+}
+#answer{
+    
+    width:317px;
+    height:45px;
+    font-size: 28px;
+    background: :gray;
+    color:black;
+    border:2px solid brown; 
+    padding: 8px;
+}
+.button{
+    width:80px;
+    height:80px;
+    float:left;
+    background: skyblue;
+}
+.button:hover {
+    background: blue;
+    cursor: pointer;
+    font-size: 22px;
+}
+.button:active{
+    background: green;
+    font-size: 28px;
+}
+#time{
+   display: inline-block;
+   
+     top:20;
+  right:20;
+     position:absolute;
+}
+#footer{
+    position:absolute;
+    bottom:0px;
+background-color:orange;
+    width:100%;
+text-align:center;
+
+}
+.image > body {
+     background-image:url("p1.JPG");
+    width: 100%;
+    height: auto;
+}
